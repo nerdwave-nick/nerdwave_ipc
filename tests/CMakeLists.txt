@@ -1,0 +1,3 @@
+add_executable(runUnitTests test_shared_memory_message_queue.cpp)
+target_link_libraries(runUnitTests gtest gtest_main)
+add_test(UnitTests runUnitTests)
